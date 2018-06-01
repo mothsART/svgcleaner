@@ -1,0 +1,4 @@
+target/release/svgcleaner       usr/bin
+
+README.rst                      usr/share/doc/svgcleaner
+LICENSE.txt                     usr/share/doc/svgcleaner

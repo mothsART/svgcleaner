@@ -1,0 +1,20 @@
+Source: svgcleaner
+Section: utils
+Priority: optional
+Maintainer: Jérémie Ferry <jerem.ferry@gmail.com>
+Build-Depends:
+  debhelper (>=9),
+  cargo,
+  quilt
+Standards-Version: 4.1.1
+
+Package: svgcleaner
+Version: 0.95
+Section: utils
+Priority: optional
+Maintainer: Jérémie Ferry <jerem.ferry@gmail.com>
+Architecture: any
+Pre-Depends: dpkg (>= 1.17.14)
+Depends: ${shlib:Depends}
+Description: svgcleaner helps you clean up your SVG files, keeping them free from unnecessary data.
+
